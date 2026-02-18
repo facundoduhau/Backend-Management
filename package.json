@@ -1,0 +1,28 @@
+{
+  "name": "rbac-management",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to practice and dive deep into management with Node and Backend in general, RBAC will be used, authentication, password management, and more.",
+  "keywords": [
+    "backend",
+    "nodejs",
+    "rbac"
+  ],
+  "homepage": "https://github.com/facundoduhau/Backend-Management#readme",
+  "bugs": {
+    "url": "https://github.com/facundoduhau/Backend-Management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundoduhau/Backend-Management.git"
+  },
+  "license": "ISC",
+  "author": "Facundo Duhau",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
