@@ -1,3 +1,8 @@
-console.log("This is my backend project");
-console.log("What do you think about it?");
-              console.log("hello")
+import dotenv from "dotenv";
+
+dotenv.config({
+	path: "./.env",
+});
+
+const myusername = process.env.username;
+console.log(myusername);
